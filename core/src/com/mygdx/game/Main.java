@@ -12,16 +12,13 @@ public class Main extends ApplicationAdapter {
     private static final int REC_HEIGHT = 90;
     private static final float PERIOD = 0.1F;
 
-    ShapeRenderer renderer;
-    SortManager manager;
+    private ShapeRenderer renderer;
+    private SortManager manager;
 
-    int[] data;
-    int padding = 10;
-    int recWidth;
+    private int[] data;
+    private int padding = 10;
+    private int recWidth;
     private float timeSeconds = 0.0F;
-
-    public Main() {
-    }
 
     public void create() {
         this.recWidth = Gdx.graphics.getWidth() / (30 + this.padding);
