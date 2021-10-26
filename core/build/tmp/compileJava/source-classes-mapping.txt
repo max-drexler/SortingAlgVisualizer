@@ -1,7 +1,0 @@
-com/mygdx/game/SortAlg.java
- com.mygdx.game.SortAlg
-com/mygdx/game/SortManager.java
- com.mygdx.game.SortManager
- com.mygdx.game.SortManager$1
-com/mygdx/game/Main.java
- com.mygdx.game.Main
