@@ -37,7 +37,31 @@ public class SortManager {
         switch (this.alg) {
             case BUBBLE:
                return this.bubbleSort();
+            case MERGE:
+                return this.mergeSort();
+            case QUICK:
+                return this.quickSort();
+            case INSERTION:
+                return this.insertionSort();
+            case SELECTION:
+                return this.selectionSort();
         }
+        return false;
+    }
+
+    private boolean quickSort(){
+        return false;
+    }
+
+    private boolean insertionSort(){
+        return false;
+    }
+
+    private boolean selectionSort(){
+        return false;
+    }
+
+    private boolean mergeSort(){
         return false;
     }
 
